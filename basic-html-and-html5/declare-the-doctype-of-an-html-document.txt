@@ -1,0 +1,5 @@
+<!DOCTYPE html>
+<html> 
+  <h1>declare the doctype of an HTML document</h1>
+
+</html>
