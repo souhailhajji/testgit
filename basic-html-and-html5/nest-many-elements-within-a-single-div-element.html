@@ -1,0 +1,31 @@
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://www.bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+ <div> <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul> 
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol></div>
+<!--https://www.freecatphotoapp.com/submit-cat-photo?indoor-outdoor=outdoorvalue&personality=lovingvalue&personality=lazyvalue&personality=energeticvalue-->
+<!--https://www.freecatphotoapp.com/submit-cat-photo?indoor-outdoor=outdoor&personality=lazy&personality=energetic-->
+<!-- https://www.freecatphotoapp.com/submit-cat-photo?indoor-outdoor=indoor&personality=loving-->
+  <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <label for="indoorid"><input id="indoorid" type="radio" name="indoor-outdoor" value="indoorvalue" checked> Indoor</label>
+    <label for="outdoorid"><input id="outdoorid" type="radio" name="indoor-outdoor" value="outdoorvalue"> Outdoor</label><br>
+    <label for="lovingid"><input id="lovingid" type="checkbox" name="personality" value="lovingvalue" checked> Loving</label>
+    <label for="lazyid"><input id="lazyid" type="checkbox" name="personality" value="lazyvalue"> Lazy</label>
+    <label for="energeticid"><input id="energeticid" type="checkbox" name="personality" value="energeticvalue"> Energetic</label><br>
+    <input type="text" name="url"  placeholder="cat photos URL" required> 
+    <button type="submit">Submit</button>
+  </form>
+</main>
