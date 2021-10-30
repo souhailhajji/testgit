@@ -1,0 +1,114 @@
+body{
+    background: rgb(207, 202, 202);
+}
+h6{
+    color: #333;   
+    margin: 20px 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 45px;
+    font-family: Impact;
+}
+h1{
+    margin-top: auto;
+    margin: 10px 10px ;
+    text-align: center;
+    font-family: system-ui;
+    font-size: 15px;
+}
+.perez{
+    border: 0px solid white;
+    margin: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.paragh{
+    border: 1rem solid;
+    border-radius: 15px;
+    font-family: cursive;
+    padding: 20px;
+    margin: 5px 5px 5px;
+    
+}
+.inf h1{
+    margin: 100px 0px;
+    text-align: center;
+    font-size: 25px;
+    font-family:  Helvetica,;
+
+   
+}
+.list li{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 15px;
+    
+}
+
+.list ul{
+    position: relative;
+    text-align: left;
+}
+footer .logo{
+    width: 100px;
+    margin-left: 610px;
+}
+ a{
+    position: absolute;
+    text-decoration: none;
+    left: 615px;
+    font-size: 20px;
+    font-family:  Helvetica;
+    
+}
+
+.REAL{
+    position: absolute;
+    margin: 20px 20px;
+    width: 40px;
+
+}
+ .FB{
+     position: absolute;
+     margin: 20px 20px;
+     width: 60px;
+     left: 200px;
+} 
+.INS{
+    position: absolute;
+    margin: 20px 20px;
+    width: 60px;
+    left: 400px;
+} 
+.TWI{
+    position: absolute;
+    margin: 20px 20px;
+    width: 60px;
+    left: 600px;
+
+}
+.YOUTUBE{
+    position: absolute;
+    margin: 20px 20px;
+    width: 60px;
+    left: 800px;
+
+}
+.TWITCH{
+    position: absolute;
+    margin: 20px 20px;
+    width: 60px;
+    left: 1000px;
+
+
+}
+.sm{
+    position: absolute;
+    height: 200px;
+    margin: 150px;
+   
+
+}

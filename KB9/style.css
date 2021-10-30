@@ -1,0 +1,174 @@
+header{
+    background-color: #0052FF;
+    height: 800px;
+    width:100%;
+    margin: 0px;
+    
+}
+.design h2 {
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial Hebrew;
+    left: 120px;
+    color: white;
+    
+} 
+ul {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+}
+
+header .menu {
+    text-transform: none;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 400px;
+}
+.button h2{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    font-family: Arial Hebrew;
+    font-size: 15px;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+.content h1{
+    color: #FFCF26;
+        position: absolute;
+        height: 36px;
+        left: 360px;
+        top: 330px;
+        font-family: Arial Hebrew;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.192px;
+    
+}
+ h3{
+    position: absolute;
+    width: 500px;
+    left: 360px;
+    top:340px;
+    font-family: arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 68px;
+    letter-spacing: 0.768px;
+    color: #FFFFFF;
+}
+.get h2{
+    position: absolute;
+    top: 540px;
+    left: 360px;
+    font-family: Arial ;
+    font-size: 15px;
+    border: 0px solid ;
+    background:  #FFCF26;
+    border-radius: 5px;
+    padding: 15px;
+  
+}
+.text p{
+    position: absolute;
+    width: 300px;
+    top: 540px;
+    left: 650px;
+    font-family: Arial;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.text2 p{
+    position: absolute;
+    width: 150px;
+    top: 460px;
+    left: 1000px; 
+    text-align: center;
+    letter-spacing: 0.216px;
+    opacity: 0.55;
+    color: #020113;
+    
+    
+
+}
+.text2 #number{
+    position: absolute;
+    left: 1030px;
+    top: 430px;
+    
+
+}
+.box1{
+    position: absolute;
+    left: 1000px;
+    padding: 75px;
+    margin: 20pxpx;
+    top: 415px;
+    border: 0px solid;
+    background: white;
+    border-radius: 5px;
+}
+  .content .logo {
+    position: absolute;
+    top: 800px;
+    width: 20px;
+}
+.dots img{
+    position: absolute;
+    top: 8000px;
+    width: 20px;
+    
+}
+.text3 p{
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    top: 350px;
+    left: 1205px;
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing: 0.216px;
+    opacity: 0.55;
+    color: #020113;
+    
+
+}
+.box{
+    position: absolute;
+    left: 1175px;
+    padding: 60px;
+    margin: 20px;
+    top: 310px;
+    border: 0px solid;
+    background: white;
+    border-radius: 5px;
+
+}
+
+
+

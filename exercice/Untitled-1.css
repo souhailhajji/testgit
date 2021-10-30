@@ -1,0 +1,8 @@
+<style>
+.image-ronde{
+  width : 150px; height : 150px;
+  border: none;
+  border-radius : 75px;
+}
+</style>
+<img src="https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/a/0/f/a0fc73919d_50166390_chaton.jpg" class="image-ronde">
