@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="document.css"/>
+    </head>
+    <body>
+        <nav id="navbar">
+            <header>HTML Documentation</header>
+            <a href="#" class="nav-link">What is HTML</a>
+            <a href="#" class="nav-link">Images</a>
+            <a href="#" class="nav-link">Attributes to an element</a>
+            <a href="#" class="nav-link">Anatomy of a CSS ruleset</a>
+            <a href="#" class="nav-link">Code Css</a>
+        </nav>
+        <main id="main-doc">
+            <section id="main-section">
+                <header>What is HTML</header>
+                <p>
+                    HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.  For example, take the following line of content:
+                </p>
+            </section>
+            <section id="main-section">
+                <header>Images</header>
+                <p>As we said before, it embeds an image into our page in the position it appears. It does this via the src (source) attribute, which contains the path to our image file.</p>
+
+                    <p>We have also included an alt (alternative) attribute. In this attribute, you specify descriptive text for users who cannot see the image, possibly because of the following reasons:</p>
+                    
+                        <ul><li>1 They are visually impaired. Users with significant visual impairments often use tools called screen readers to read out the alt text to them.</li>
+                        <li>2 Something has gone wrong causing the image not to display. For example, try deliberately changing the path inside your src attribute to make it incorrect. If you save and reload the page, you should see something like this in place of the image:</li>
+                        </ul>
+                    
+                    <p>The keywords for alt text are "descriptive text". The alt text you write should provide the reader with enough information to have a good idea of what the image conveys. In this example, our current text of "My test image" is no good at all. A much better alternative for our Firefox logo would be "The Firefox logo: a flaming fox surrounding the Earth."</p>
+                    
+                    <p>Try coming up with some better alt text for your image now.</p>
+            </section>
+            <section id="main-section">
+                <header>Attributes to an element</header>
+                <p>
+                    Another example of an element is <a>. This stands for anchor. An anchor can make the text it encloses into a hyperlink. Anchors can take a number of attributes, but several are as follows:</p>
+
+                        <ul><li>href: This attribute's value specifies the web address for the link. For example: href="https://www.mozilla.org/".</li>
+                        <li>title: The title attribute specifies extra information about the link, such as a description of the page that is being linked to. For example, title="The Mozilla homepage". This appears as a tooltip when a cursor hovers over the element.</li>
+                        <li>target: The target attribute specifies the browsing context used to display the link. For example, target="_blank" will display the link in a new tab. If you want to display the linked content in the current tab, just omit this attribute.</li>
+                        </ul>
+                    <p>Edit the line below in the Input area to turn it into a link to your favorite website.</p>
+                    
+                        Add the <a> element.
+                        Add the href attribute and the title attribute.
+                        Specify the target attribute to open the link in the new tab.
+                    
+                    <p>You'll be able to see your changes update live in the Output area. You should see a link—that when hovered over—displays the value of the title attribute, and when clicked, navigates to the web address in the href attribute. Remember that you need to include a space between the element name, and between each attribute.</p>
+                    
+                    <p>If you make a mistake, you can always reset it using the Reset button. If you get really stuck, press the Show solution button to see the answer.</p>
+            </section>
+            <section id="main-section">
+                <header>Anatomy of a CSS ruleset</header>
+                <P>The whole structure is called a ruleset. (The term ruleset is often referred to as just rule.) Note the names of the individual parts:</P>
+
+                    <h3>Selector</h3>
+                    
+                        <p>This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled (in this example, <p> elements). To style a different element, change the selector.</p>
+                    <h3>Declaration</h3>
+                    
+                        <p>This is a single rule like color: red;. It specifies which of the element's properties you want to style.</p>
+                    <h3>Properties</h3>
+                    
+                        <p>These are ways in which you can style an HTML element. (In this example, color is a property of the <p> elements.) In CSS, you choose which properties you want to affect in the rule.</p>
+                    <h3>Property value</h3>
+                    
+                        <p>To the right of the property—after the colon—there is the property value. This chooses one out of many possible appearances for a given property. (For example, there are many color values in addition to red.)</p>
+                    
+                    <p>Note the other important parts of the syntax:</p>
+                    
+                        <ul><li> from the selector, each ruleset must be wrapped in curly braces. ({})//</li>
+                        <li>Within each declaration, you must use a colon (:) to separate the property from its value or values.</li>
+                        <li>Within each ruleset, you must use a semicolon (;) to separate each declaration from the next one.</li>
+                        </ul>
+                    
+            </section>
+            <section id="main-section">
+                <header>Code Css</header>
+                <p>CSS: all about boxes</p>
+                <ul>
+                    <li>Changing the page color</li>
+                    <li>Styling the body</li>
+                    <li>Positioning and styling the main page title</li>
+                </ul>
+                <h3>Changing the page color</h3>
+                <pre>
+                <code>
+                    html {
+                        background-color: #00539F;
+                      }                      
+                </code>
+                </pre>
+                <h3>Styling the body</h3>
+                <pre>
+                <code>
+                    body {
+                        width: 600px;
+                        margin: 0 auto;
+                        background-color: #FF9500;
+                        padding: 0 20px 20px 20px;
+                        border: 5px solid black;
+                      }                      
+                </code>
+                </pre>
+                <h3>Positioning and styling the main page title</h3>
+                <pre>
+                <code>
+                    h1 {
+                        margin: 0;
+                        padding: 20px 0;
+                        color: #00539F;
+                        text-shadow: 3px 3px 1px black;
+                      }                      
+                </code>
+                </pre>
+            </section>
+        </main>
+    </body>
+</html>
